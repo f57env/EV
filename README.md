@@ -1,36 +1,41 @@
-ChargeHub/
+ChargeHub
+
+src/main/java
+
+com.chargehub
+
 │
-├── src/
+├── config
+│      DBConnection.java
+│      AppConfig.java
 │
-├── app/
-│      Main.java
+├── controller
 │
-├── menu/
-│      MainMenu.java
-│      CustomerMenu.java
-│      PartnerMenu.java
-│      AdminMenu.java
+├── dao
+│      UserDAO.java
+│      BookingDAO.java
+│      VehicleDAO.java
 │
-├── authentication/
-│      AuthenticationManager.java
-│      LoginService.java
-│      RegistrationService.java
-│      SessionManager.java
+├── daoimpl
+│      UserDAOImpl.java
+│      BookingDAOImpl.java
 │
-├── model/
+├── entity
 │      User.java
-│      Customer.java
-│      ShopOwner.java
-│      Employee.java
-│      Admin.java
-│      Role.java
+│      Booking.java
+│      Station.java
 │
-├── repository/
-│      UserRepository.java
+├── service
 │
-├── util/
-│      InputUtil.java
-│      ValidationUtil.java
+├── repository
 │
-└── exception/
-       UserNotFoundException.java
+├── menu
+│
+├── util
+│
+├── validation
+│
+├── exception
+│
+└── app
+        Main.java
