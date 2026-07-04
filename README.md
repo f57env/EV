@@ -556,3 +556,35 @@ If you found this project helpful,
 Made with ❤️ using Java
 
 </div>
+
+
+
+ChargeHub/
+│── README.md
+│── LICENSE
+│── CONTRIBUTING.md
+│── CHANGELOG.md
+│── CODE_OF_CONDUCT.md
+│── SECURITY.md
+│
+├── docs/
+│   ├── SRS.md
+│   ├── SDLC.md
+│   ├── DatabaseDesign.md
+│   ├── API.md
+│   ├── UML/
+│   ├── ERD/
+│   └── Architecture/
+│
+├── database/
+│   ├── schema.sql
+│   ├── data.sql
+│   └── procedures.sql
+│
+├── postman/
+│
+├── screenshots/
+│
+├── src/
+│
+└── pom.xml
